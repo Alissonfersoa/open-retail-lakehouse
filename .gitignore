@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff
+.ruff_cache/
+
+# Local Data
+data/landing/*
+data/bronze/*
+data/silver/*
+data/gold/*
+data/quarantine/*
+
+# Airflow
+logs/
+airflow.db
+
+# OS
+.DS_Store
+Thumbs.db
